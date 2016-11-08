@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="16A238m" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="RcS-EZ-6hJ">
+                                <rect key="frame" x="20" y="52" width="560" height="548"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" offImage="yes.png" translatesAutoresizingMaskIntoConstraints="NO" id="YVP-KA-kkb">
+                                <rect key="frame" x="504" y="20" width="51" height="31"/>
+                                <rect key="contentStretch" x="1" y="1" width="1" height="1"/>
+                                <connections>
+                                    <action selector="switch:" destination="BYZ-38-t0r" eventType="valueChanged" id="Xbd-xF-CCt"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Animation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8V-C7-VdW">
+                                <rect key="frame" x="369" y="25" width="122" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="ns7-ol-NvX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c8V-C7-VdW" firstAttribute="centerY" secondItem="YVP-KA-kkb" secondAttribute="centerY" id="3Qu-QN-53H"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RcS-EZ-6hJ" secondAttribute="bottom" id="HL3-cF-b0d"/>
+                            <constraint firstItem="YVP-KA-kkb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Igl-IL-13W"/>
+                            <constraint firstItem="YVP-KA-kkb" firstAttribute="leading" secondItem="c8V-C7-VdW" secondAttribute="trailing" constant="13" id="Uuo-PH-kCg"/>
+                            <constraint firstItem="YVP-KA-kkb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bEe-VO-gXy"/>
+                            <constraint firstItem="RcS-EZ-6hJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="32" id="jD4-Js-AQZ"/>
+                            <constraint firstItem="RcS-EZ-6hJ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="mcw-Ri-Zrf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YVP-KA-kkb" secondAttribute="trailing" constant="27" id="wOl-F7-2hi"/>
+                            <constraint firstItem="RcS-EZ-6hJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wWp-2S-sAl"/>
+                        </constraints>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="imgView" destination="RcS-EZ-6hJ" id="tCs-5V-2ib"/>
+                        <outlet property="lbl" destination="c8V-C7-VdW" id="Qaa-R8-emZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="373"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.png" width="864" height="280"/>
+        <image name="yes.png" width="154" height="54"/>
+    </resources>
+</document>
