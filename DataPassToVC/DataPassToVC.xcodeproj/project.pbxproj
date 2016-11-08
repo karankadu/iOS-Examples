@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC6C76D41D546B6400374258 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C76D31D546B6400374258 /* main.m */; };
+		CC6C76D71D546B6400374258 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C76D61D546B6400374258 /* AppDelegate.m */; };
+		CC6C76DF1D546B6400374258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6C76DE1D546B6400374258 /* Assets.xcassets */; };
+		CC6C76E21D546B6400374258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6C76E01D546B6400374258 /* LaunchScreen.storyboard */; };
+		CC6C76ED1D546B6500374258 /* DataPassToVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C76EC1D546B6500374258 /* DataPassToVCTests.m */; };
+		CC6C76F81D546B6500374258 /* DataPassToVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C76F71D546B6500374258 /* DataPassToVCUITests.m */; };
+		CC6C77081D546F2500374258 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C77061D546F2500374258 /* FirstViewController.m */; };
+		CC6C77091D546F2500374258 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6C77071D546F2500374258 /* FirstViewController.xib */; };
+		CC6C770D1D54703200374258 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C770B1D54703200374258 /* SecondViewController.m */; };
+		CC6C770E1D54703200374258 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6C770C1D54703200374258 /* SecondViewController.xib */; };
+		CC6C77121D5473D600374258 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C77101D5473D600374258 /* TableViewController.m */; };
+		CC6C77131D5473D600374258 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6C77111D5473D600374258 /* TableViewController.xib */; };
+		CC6C771C1D54745300374258 /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6C771A1D54745300374258 /* InputViewController.m */; };
+		CC6C771D1D54745300374258 /* InputViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC6C771B1D54745300374258 /* InputViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC6C76E91D546B6500374258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6C76C71D546B6400374258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6C76CE1D546B6400374258;
+			remoteInfo = DataPassToVC;
+		};
+		CC6C76F41D546B6500374258 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC6C76C71D546B6400374258 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC6C76CE1D546B6400374258;
+			remoteInfo = DataPassToVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC6C76CF1D546B6400374258 /* DataPassToVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataPassToVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6C76D31D546B6400374258 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6C76D51D546B6400374258 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC6C76D61D546B6400374258 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC6C76DE1D546B6400374258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC6C76E11D546B6400374258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC6C76E31D546B6400374258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6C76E81D546B6500374258 /* DataPassToVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPassToVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6C76EC1D546B6500374258 /* DataPassToVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPassToVCTests.m; sourceTree = "<group>"; };
+		CC6C76EE1D546B6500374258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6C76F31D546B6500374258 /* DataPassToVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataPassToVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC6C76F71D546B6500374258 /* DataPassToVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataPassToVCUITests.m; sourceTree = "<group>"; };
+		CC6C76F91D546B6500374258 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC6C77051D546F2500374258 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = ../FirstViewController.h; sourceTree = "<group>"; };
+		CC6C77061D546F2500374258 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = ../FirstViewController.m; sourceTree = "<group>"; };
+		CC6C77071D546F2500374258 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = ../FirstViewController.xib; sourceTree = "<group>"; };
+		CC6C770A1D54703200374258 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		CC6C770B1D54703200374258 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		CC6C770C1D54703200374258 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		CC6C770F1D5473D600374258 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		CC6C77101D5473D600374258 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		CC6C77111D5473D600374258 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewController.xib; path = ../TableViewController.xib; sourceTree = "<group>"; };
+		CC6C77191D54745300374258 /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		CC6C771A1D54745300374258 /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		CC6C771B1D54745300374258 /* InputViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC6C76CC1D546B6400374258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6C76E51D546B6400374258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6C76F01D546B6500374258 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC6C76C61D546B6400374258 = {
+			isa = PBXGroup;
+			children = (
+				CC6C76D11D546B6400374258 /* DataPassToVC */,
+				CC6C76EB1D546B6500374258 /* DataPassToVCTests */,
+				CC6C76F61D546B6500374258 /* DataPassToVCUITests */,
+				CC6C76D01D546B6400374258 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC6C76D01D546B6400374258 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C76CF1D546B6400374258 /* DataPassToVC.app */,
+				CC6C76E81D546B6500374258 /* DataPassToVCTests.xctest */,
+				CC6C76F31D546B6500374258 /* DataPassToVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC6C76D11D546B6400374258 /* DataPassToVC */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C76D51D546B6400374258 /* AppDelegate.h */,
+				CC6C76D61D546B6400374258 /* AppDelegate.m */,
+				CC6C770A1D54703200374258 /* SecondViewController.h */,
+				CC6C770B1D54703200374258 /* SecondViewController.m */,
+				CC6C770C1D54703200374258 /* SecondViewController.xib */,
+				CC6C77051D546F2500374258 /* FirstViewController.h */,
+				CC6C77061D546F2500374258 /* FirstViewController.m */,
+				CC6C77071D546F2500374258 /* FirstViewController.xib */,
+				CC6C770F1D5473D600374258 /* TableViewController.h */,
+				CC6C77101D5473D600374258 /* TableViewController.m */,
+				CC6C77111D5473D600374258 /* TableViewController.xib */,
+				CC6C77191D54745300374258 /* InputViewController.h */,
+				CC6C771A1D54745300374258 /* InputViewController.m */,
+				CC6C771B1D54745300374258 /* InputViewController.xib */,
+				CC6C76DE1D546B6400374258 /* Assets.xcassets */,
+				CC6C76E01D546B6400374258 /* LaunchScreen.storyboard */,
+				CC6C76E31D546B6400374258 /* Info.plist */,
+				CC6C76D21D546B6400374258 /* Supporting Files */,
+			);
+			path = DataPassToVC;
+			sourceTree = "<group>";
+		};
+		CC6C76D21D546B6400374258 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C76D31D546B6400374258 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC6C76EB1D546B6500374258 /* DataPassToVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C76EC1D546B6500374258 /* DataPassToVCTests.m */,
+				CC6C76EE1D546B6500374258 /* Info.plist */,
+			);
+			path = DataPassToVCTests;
+			sourceTree = "<group>";
+		};
+		CC6C76F61D546B6500374258 /* DataPassToVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC6C76F71D546B6500374258 /* DataPassToVCUITests.m */,
+				CC6C76F91D546B6500374258 /* Info.plist */,
+			);
+			path = DataPassToVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC6C76CE1D546B6400374258 /* DataPassToVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6C76FC1D546B6500374258 /* Build configuration list for PBXNativeTarget "DataPassToVC" */;
+			buildPhases = (
+				CC6C76CB1D546B6400374258 /* Sources */,
+				CC6C76CC1D546B6400374258 /* Frameworks */,
+				CC6C76CD1D546B6400374258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DataPassToVC;
+			productName = DataPassToVC;
+			productReference = CC6C76CF1D546B6400374258 /* DataPassToVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC6C76E71D546B6400374258 /* DataPassToVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6C76FF1D546B6500374258 /* Build configuration list for PBXNativeTarget "DataPassToVCTests" */;
+			buildPhases = (
+				CC6C76E41D546B6400374258 /* Sources */,
+				CC6C76E51D546B6400374258 /* Frameworks */,
+				CC6C76E61D546B6400374258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6C76EA1D546B6500374258 /* PBXTargetDependency */,
+			);
+			name = DataPassToVCTests;
+			productName = DataPassToVCTests;
+			productReference = CC6C76E81D546B6500374258 /* DataPassToVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC6C76F21D546B6500374258 /* DataPassToVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC6C77021D546B6500374258 /* Build configuration list for PBXNativeTarget "DataPassToVCUITests" */;
+			buildPhases = (
+				CC6C76EF1D546B6500374258 /* Sources */,
+				CC6C76F01D546B6500374258 /* Frameworks */,
+				CC6C76F11D546B6500374258 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC6C76F51D546B6500374258 /* PBXTargetDependency */,
+			);
+			name = DataPassToVCUITests;
+			productName = DataPassToVCUITests;
+			productReference = CC6C76F31D546B6500374258 /* DataPassToVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC6C76C71D546B6400374258 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = KK;
+				TargetAttributes = {
+					CC6C76CE1D546B6400374258 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CC6C76E71D546B6400374258 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CC6C76CE1D546B6400374258;
+					};
+					CC6C76F21D546B6500374258 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CC6C76CE1D546B6400374258;
+					};
+				};
+			};
+			buildConfigurationList = CC6C76CA1D546B6400374258 /* Build configuration list for PBXProject "DataPassToVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC6C76C61D546B6400374258;
+			productRefGroup = CC6C76D01D546B6400374258 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC6C76CE1D546B6400374258 /* DataPassToVC */,
+				CC6C76E71D546B6400374258 /* DataPassToVCTests */,
+				CC6C76F21D546B6500374258 /* DataPassToVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC6C76CD1D546B6400374258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6C770E1D54703200374258 /* SecondViewController.xib in Resources */,
+				CC6C76E21D546B6400374258 /* LaunchScreen.storyboard in Resources */,
+				CC6C77091D546F2500374258 /* FirstViewController.xib in Resources */,
+				CC6C771D1D54745300374258 /* InputViewController.xib in Resources */,
+				CC6C77131D5473D600374258 /* TableViewController.xib in Resources */,
+				CC6C76DF1D546B6400374258 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6C76E61D546B6400374258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6C76F11D546B6500374258 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC6C76CB1D546B6400374258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6C770D1D54703200374258 /* SecondViewController.m in Sources */,
+				CC6C771C1D54745300374258 /* InputViewController.m in Sources */,
+				CC6C76D71D546B6400374258 /* AppDelegate.m in Sources */,
+				CC6C77081D546F2500374258 /* FirstViewController.m in Sources */,
+				CC6C77121D5473D600374258 /* TableViewController.m in Sources */,
+				CC6C76D41D546B6400374258 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6C76E41D546B6400374258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6C76ED1D546B6500374258 /* DataPassToVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC6C76EF1D546B6500374258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC6C76F81D546B6500374258 /* DataPassToVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC6C76EA1D546B6500374258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6C76CE1D546B6400374258 /* DataPassToVC */;
+			targetProxy = CC6C76E91D546B6500374258 /* PBXContainerItemProxy */;
+		};
+		CC6C76F51D546B6500374258 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC6C76CE1D546B6400374258 /* DataPassToVC */;
+			targetProxy = CC6C76F41D546B6500374258 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC6C76E01D546B6400374258 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC6C76E11D546B6400374258 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC6C76FA1D546B6500374258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC6C76FB1D546B6500374258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC6C76FD1D546B6500374258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataPassToVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.DataPassToVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC6C76FE1D546B6500374258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DataPassToVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.DataPassToVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC6C77001D546B6500374258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataPassToVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.DataPassToVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataPassToVC.app/DataPassToVC";
+			};
+			name = Debug;
+		};
+		CC6C77011D546B6500374258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DataPassToVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.DataPassToVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DataPassToVC.app/DataPassToVC";
+			};
+			name = Release;
+		};
+		CC6C77031D546B6500374258 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataPassToVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.DataPassToVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataPassToVC;
+			};
+			name = Debug;
+		};
+		CC6C77041D546B6500374258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DataPassToVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KK.DataPassToVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DataPassToVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC6C76CA1D546B6400374258 /* Build configuration list for PBXProject "DataPassToVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6C76FA1D546B6500374258 /* Debug */,
+				CC6C76FB1D546B6500374258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6C76FC1D546B6500374258 /* Build configuration list for PBXNativeTarget "DataPassToVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6C76FD1D546B6500374258 /* Debug */,
+				CC6C76FE1D546B6500374258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6C76FF1D546B6500374258 /* Build configuration list for PBXNativeTarget "DataPassToVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6C77001D546B6500374258 /* Debug */,
+				CC6C77011D546B6500374258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC6C77021D546B6500374258 /* Build configuration list for PBXNativeTarget "DataPassToVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC6C77031D546B6500374258 /* Debug */,
+				CC6C77041D546B6500374258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC6C76C71D546B6400374258 /* Project object */;
+}
